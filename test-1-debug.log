@@ -1,0 +1,118 @@
+2021-01-26 22:06:10,752: Inventory: {'$MILK': {'amount': 500, 'reminder': 50}, '$WATER': {'amount': 500, 'reminder': 50}, '$TEA_SYRUP': {'amount': 600, 'reminder': 50}, '$COFFEE_SYRUP': {'amount': 20, 'reminder': 50}, '$SUGAR_SYRUP': {'amount': 600, 'reminder': 50}, '$GINGER_SYRUP': {'amount': 100, 'reminder': 20}, '$ELAICHI_SYRUP': {'amount': 100, 'reminder': 20}}
+2021-01-26 22:06:10,754: {'$MILK': {'amount': 500, 'reminder': 50}, '$WATER': {'amount': 500, 'reminder': 50}, '$TEA_SYRUP': {'amount': 600, 'reminder': 50}, '$COFFEE_SYRUP': {'amount': 20, 'reminder': 50}, '$SUGAR_SYRUP': {'amount': 600, 'reminder': 50}, '$GINGER_SYRUP': {'amount': 100, 'reminder': 20}, '$ELAICHI_SYRUP': {'amount': 100, 'reminder': 20}}
+2021-01-26 22:06:10,759: Adding $GINGER_TEA
+2021-01-26 22:06:10,760: Waiting for task...
+2021-01-26 22:06:10,761: Waiting for task...
+2021-01-26 22:06:10,763: Waiting for task...
+2021-01-26 22:06:10,763: Picked up $GINGER_TEA
+2021-01-26 22:06:10,763: Adding $ELAICHI_TEA
+2021-01-26 22:06:10,764: ALERT: Running low on $COFFEE_SYRUP, please restock.
+2021-01-26 22:06:10,764: lock on $MILK
+2021-01-26 22:06:10,765: Releasing lock on $MILK
+2021-01-26 22:06:10,765: Picked up $ELAICHI_TEA
+2021-01-26 22:06:10,765: Ingredient $MILK used up by 10
+2021-01-26 22:06:10,765: Adding $COFFEE
+2021-01-26 22:06:10,765: lock on $MILK
+2021-01-26 22:06:10,765: lock on $WATER
+2021-01-26 22:06:10,766: Releasing lock on $MILK
+2021-01-26 22:06:10,766: Adding $COFFEE
+2021-01-26 22:06:10,766: Picked up $COFFEE
+2021-01-26 22:06:10,766: Releasing lock on $WATER
+2021-01-26 22:06:10,766: Ingredient $MILK used up by 10
+2021-01-26 22:06:10,766: lock on $MILK
+2021-01-26 22:06:10,766: Adding $COFFEE
+2021-01-26 22:06:10,766: Ingredient $WATER used up by 50
+2021-01-26 22:06:10,766: lock on $WATER
+2021-01-26 22:06:10,767: Releasing lock on $MILK
+2021-01-26 22:06:10,767: lock on $TEA_SYRUP
+2021-01-26 22:06:10,767: Releasing lock on $WATER
+2021-01-26 22:06:10,767: Ingredient $MILK used up by 10
+2021-01-26 22:06:10,767: Releasing lock on $TEA_SYRUP
+2021-01-26 22:06:10,767: Ingredient $WATER used up by 50
+2021-01-26 22:06:10,767: lock on $WATER
+2021-01-26 22:06:10,767: Ingredient $TEA_SYRUP used up by 10
+2021-01-26 22:06:10,767: lock on $TEA_SYRUP
+2021-01-26 22:06:10,767: Releasing lock on $WATER
+2021-01-26 22:06:10,767: lock on $GINGER_SYRUP
+2021-01-26 22:06:10,767: Releasing lock on $TEA_SYRUP
+2021-01-26 22:06:10,767: Ingredient $WATER used up by 50
+2021-01-26 22:06:10,767: Releasing lock on $GINGER_SYRUP
+2021-01-26 22:06:10,768: Ingredient $TEA_SYRUP used up by 10
+2021-01-26 22:06:10,768: lock on $COFFEE_SYRUP
+2021-01-26 22:06:10,768: Ingredient $GINGER_SYRUP used up by 5
+2021-01-26 22:06:10,768: lock on $ELAICHI_SYRUP
+2021-01-26 22:06:10,768: Releasing lock on $COFFEE_SYRUP
+2021-01-26 22:06:10,768: lock on $SUGAR_SYRUP
+2021-01-26 22:06:10,768: Releasing lock on $ELAICHI_SYRUP
+2021-01-26 22:06:10,768: Ingredient $COFFEE_SYRUP used up by 10
+2021-01-26 22:06:10,768: Releasing lock on $SUGAR_SYRUP
+2021-01-26 22:06:10,768: Ingredient $ELAICHI_SYRUP used up by 5
+2021-01-26 22:06:10,768: Ingredient $SUGAR_SYRUP used up by 10
+2021-01-26 22:06:10,768: lock on $SUGAR_SYRUP
+2021-01-26 22:06:10,768: Serving Drink: $GINGER_TEA
+2021-01-26 22:06:10,768: Releasing lock on $SUGAR_SYRUP
+2021-01-26 22:06:10,768: Ingredient $SUGAR_SYRUP used up by 10
+2021-01-26 22:06:10,768: lock on $SUGAR_SYRUP
+2021-01-26 22:06:10,768: Serving Drink: $COFFEE
+2021-01-26 22:06:10,769: Releasing lock on $SUGAR_SYRUP
+2021-01-26 22:06:10,769: Ingredient $SUGAR_SYRUP used up by 10
+2021-01-26 22:06:10,769: Serving Drink: $ELAICHI_TEA
+2021-01-26 22:06:12,773: Finished Serving Drink: $GINGER_TEA
+2021-01-26 22:06:12,774: Finished Serving Drink: $ELAICHI_TEA
+2021-01-26 22:06:12,774: Finished Serving Drink: $COFFEE
+2021-01-26 22:06:12,774: {'$MILK': {'amount': 470, 'reminder': 50}, '$WATER': {'amount': 350, 'reminder': 50}, '$TEA_SYRUP': {'amount': 580, 'reminder': 50}, '$COFFEE_SYRUP': {'amount': 10, 'reminder': 50}, '$SUGAR_SYRUP': {'amount': 570, 'reminder': 50}, '$GINGER_SYRUP': {'amount': 95, 'reminder': 20}, '$ELAICHI_SYRUP': {'amount': 95, 'reminder': 20}}
+2021-01-26 22:06:12,774: {'$MILK': {'amount': 470, 'reminder': 50}, '$WATER': {'amount': 350, 'reminder': 50}, '$TEA_SYRUP': {'amount': 580, 'reminder': 50}, '$COFFEE_SYRUP': {'amount': 10, 'reminder': 50}, '$SUGAR_SYRUP': {'amount': 570, 'reminder': 50}, '$GINGER_SYRUP': {'amount': 95, 'reminder': 20}, '$ELAICHI_SYRUP': {'amount': 95, 'reminder': 20}}
+2021-01-26 22:06:12,774: {'$MILK': {'amount': 470, 'reminder': 50}, '$WATER': {'amount': 350, 'reminder': 50}, '$TEA_SYRUP': {'amount': 580, 'reminder': 50}, '$COFFEE_SYRUP': {'amount': 10, 'reminder': 50}, '$SUGAR_SYRUP': {'amount': 570, 'reminder': 50}, '$GINGER_SYRUP': {'amount': 95, 'reminder': 20}, '$ELAICHI_SYRUP': {'amount': 95, 'reminder': 20}}
+2021-01-26 22:06:17,780: Waiting for task...
+2021-01-26 22:06:17,780: Waiting for task...
+2021-01-26 22:06:17,781: Waiting for task...
+2021-01-26 22:06:17,781: Picked up $COFFEE
+2021-01-26 22:06:17,781: Picked up $COFFEE
+2021-01-26 22:06:17,781: lock on $MILK
+2021-01-26 22:06:17,781: Releasing lock on $MILK
+2021-01-26 22:06:17,782: Ingredient $MILK used up by 10
+2021-01-26 22:06:17,782: lock on $WATER
+2021-01-26 22:06:17,782: Releasing lock on $WATER
+2021-01-26 22:06:17,782: Ingredient $WATER used up by 50
+2021-01-26 22:06:17,782: lock on $COFFEE_SYRUP
+2021-01-26 22:06:17,782: Releasing lock on $COFFEE_SYRUP
+2021-01-26 22:06:17,782: lock on $MILK
+2021-01-26 22:06:17,782: Ingredient $COFFEE_SYRUP used up by 10
+2021-01-26 22:06:17,783: Releasing lock on $MILK
+2021-01-26 22:06:17,783: lock on $SUGAR_SYRUP
+2021-01-26 22:06:17,783: Ingredient $MILK used up by 10
+2021-01-26 22:06:17,783: Releasing lock on $SUGAR_SYRUP
+2021-01-26 22:06:17,783: lock on $WATER
+2021-01-26 22:06:17,783: Ingredient $SUGAR_SYRUP used up by 10
+2021-01-26 22:06:17,784: Releasing lock on $WATER
+2021-01-26 22:06:17,784: Serving Drink: $COFFEE
+2021-01-26 22:06:17,784: Ingredient $WATER used up by 50
+2021-01-26 22:06:17,784: $COFFEE couldn't be served. Not enough $COFFEE_SYRUP
+2021-01-26 22:06:17,785: lock on $MILK
+2021-01-26 22:06:17,785: Releasing lock on $MILK
+2021-01-26 22:06:17,785: Ingredient $MILK replenished by 10
+2021-01-26 22:06:17,785: lock on $WATER
+2021-01-26 22:06:17,785: Releasing lock on $WATER
+2021-01-26 22:06:17,785: Ingredient $WATER replenished by 50
+2021-01-26 22:06:19,785: Finished Serving Drink: $COFFEE
+2021-01-26 22:06:19,785: {'$MILK': {'amount': 460, 'reminder': 50}, '$WATER': {'amount': 300, 'reminder': 50}, '$TEA_SYRUP': {'amount': 580, 'reminder': 50}, '$COFFEE_SYRUP': {'amount': 0, 'reminder': 50}, '$SUGAR_SYRUP': {'amount': 560, 'reminder': 50}, '$GINGER_SYRUP': {'amount': 95, 'reminder': 20}, '$ELAICHI_SYRUP': {'amount': 95, 'reminder': 20}}
+2021-01-26 22:06:20,768: Adding $COFFEE
+2021-01-26 22:06:20,769: Picked up $COFFEE
+2021-01-26 22:06:20,769: lock on $MILK
+2021-01-26 22:06:20,769: Releasing lock on $MILK
+2021-01-26 22:06:20,769: Ingredient $MILK used up by 10
+2021-01-26 22:06:20,770: lock on $WATER
+2021-01-26 22:06:20,770: Releasing lock on $WATER
+2021-01-26 22:06:20,770: Ingredient $WATER used up by 50
+2021-01-26 22:06:20,770: $COFFEE couldn't be served. Not enough $COFFEE_SYRUP
+2021-01-26 22:06:20,770: lock on $MILK
+2021-01-26 22:06:20,770: Releasing lock on $MILK
+2021-01-26 22:06:20,770: Ingredient $MILK replenished by 10
+2021-01-26 22:06:20,770: lock on $WATER
+2021-01-26 22:06:20,770: Releasing lock on $WATER
+2021-01-26 22:06:20,771: Ingredient $WATER replenished by 50
+2021-01-26 22:06:22,799: Waiting for task...
+2021-01-26 22:06:24,790: Waiting for task...
+2021-01-26 22:06:25,774: Waiting for task...
+2021-01-26 22:06:40,768: ALERT: Running low on $COFFEE_SYRUP, please restock.
+2021-01-26 22:07:10,774: ALERT: Running low on $COFFEE_SYRUP, please restock.

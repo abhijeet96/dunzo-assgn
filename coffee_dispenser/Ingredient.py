@@ -1,0 +1,9 @@
+#enum for Ingredients
+class Ingredient:
+  MILK = "$MILK"
+  WATER = "$WATER"
+  TEA_SYRUP = "$TEA_SYRUP"
+  COFFEE_SYRUP = "$COFFEE_SYRUP"
+  SUGAR_SYRUP = "$SUGAR_SYRUP"
+  GINGER_SYRUP = "$GINGER_SYRUP"
+  ELAICHI_SYPRUP = "$ELAICHI_SYRUP"
