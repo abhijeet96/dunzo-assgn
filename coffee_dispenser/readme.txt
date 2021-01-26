@@ -9,3 +9,5 @@ Features:
 
 Deadlock on ingredients was avoided by using ordered dictionary of drinks.
 
+A simple python3 venv will work to run this. I thought a docker image would be overkill.
+
