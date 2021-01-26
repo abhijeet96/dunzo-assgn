@@ -12,7 +12,7 @@ format = "%(asctime)s: %(message)s"
 logging.basicConfig(format=format,
                     filename='test-1-debug.log',
                     filemode='w',
-                    level=logging.DEBUG)
+                    level=logging.INFO)
 
 inventory = Inventory()
 logging.info(inventory.current_inventory)
